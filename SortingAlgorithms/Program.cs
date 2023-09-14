@@ -17,7 +17,9 @@ namespace SortingAlgorithms
             MergeSort mergeSort = new MergeSort();
             //array = mergeSort.Sort(array);
             InsertionSort insertionSort = new InsertionSort();
-            array = insertionSort.Sort(array);
+            //array = insertionSort.Sort(array);
+            SelectionSort selectionSort = new SelectionSort();
+            array = selectionSort.Sort(array);
             Console.WriteLine("Sorted array"); PrintArray(array);
             Console.ReadLine();
         }
