@@ -15,7 +15,9 @@ namespace SortingAlgorithms
             BubbleSort bubble = new BubbleSort();
             //array = bubble.Sort(array);
             MergeSort mergeSort = new MergeSort();
-            array = mergeSort.Sort(array);
+            //array = mergeSort.Sort(array);
+            InsertionSort insertionSort = new InsertionSort();
+            array = insertionSort.Sort(array);
             Console.WriteLine("Sorted array"); PrintArray(array);
             Console.ReadLine();
         }
